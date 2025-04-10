@@ -105,9 +105,9 @@ function CreateConnection()
     try {
         // Datos de conexión a la base de datos
         $host = "localhost";
-        $usuario_db = "security";
-        $contrasena_db = "security";
-        $nombre_db = "usuarios";
+        $usuario_db = "if0_38719947";
+        $contrasena_db = "2m8kYR8FkNMFuL";
+        $nombre_db = "if0_38719947_prueba";
 
         // Conexión a la base de datos
         $conexion = new mysqli($host, $usuario_db, $contrasena_db, $nombre_db);
